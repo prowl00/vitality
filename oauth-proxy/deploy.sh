@@ -19,5 +19,6 @@ npm run build
 
 echo "[deploy] Copying to httpdocs..."
 rsync -a --delete out/ "$WEB_DIR/"
+chown -R thevitalitysource.ca_fk0afovg7tj:psaserv "$WEB_DIR"
 
 echo "[deploy] Done."
