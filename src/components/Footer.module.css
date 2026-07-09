@@ -1,0 +1,107 @@
+.footer {
+  background-color: var(--color-sage);
+  padding-top: var(--space-3xl);
+  padding-bottom: var(--space-2xl);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.5fr 1fr;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-2xl);
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-text-inverse);
+  display: block;
+  margin-bottom: var(--space-md);
+}
+
+.tagline {
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+  font-weight: 300;
+  color: var(--color-text-inverse);
+  line-height: var(--leading-body);
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.navLink {
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+  font-weight: 300;
+  color: var(--color-text-inverse);
+  transition: opacity 0.2s ease;
+}
+
+.navLink:hover { opacity: 0.7; }
+
+.contactLabel {
+  font-family: var(--font-body);
+  font-size: var(--text-tiny);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(251, 248, 243, 0.6);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-xs);
+}
+
+.contactLabel:first-child { margin-top: 0; }
+
+.contactValue {
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+  font-weight: 300;
+  color: var(--color-text-inverse);
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-top: var(--space-xs);
+}
+
+.socialLink {
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+  font-weight: 300;
+  color: var(--color-text-inverse);
+  transition: opacity 0.2s ease;
+}
+
+.socialLink:hover { opacity: 0.7; }
+
+.disclaimer {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: var(--space-lg);
+}
+
+.disclaimerText {
+  font-family: var(--font-body);
+  font-size: var(--text-tiny);
+  color: rgba(251, 248, 243, 0.7);
+  line-height: var(--leading-body);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl) var(--space-lg);
+  }
+  .brand { grid-column: 1 / -1; }
+}
+
+@media (max-width: 600px) {
+  .grid { grid-template-columns: 1fr; }
+}

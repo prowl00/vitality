@@ -1,0 +1,52 @@
+:root {
+  /* Primary palette */
+  --color-sage:       #7C8B6F;
+  --color-terracotta: #B5765A;
+  --color-linen:      #F0E6D8;
+  --color-ivory:      #FBF8F3;
+  --color-walnut:     #3F3A33;
+
+  /* Functional */
+  --color-border:        rgba(124, 139, 111, 0.2);
+  --color-border-strong: rgba(124, 139, 111, 0.4);
+  --color-overlay:       rgba(63, 58, 51, 0.04);
+
+  /* Text hierarchy */
+  --color-text-primary:   #3F3A33;
+  --color-text-secondary: #6B6560;
+  --color-text-light:     #9C9088;
+  --color-text-inverse:   #FBF8F3;
+
+  /* CTA states */
+  --color-cta-default: #B5765A;
+  --color-cta-hover:   #9E6048;
+  --color-cta-active:  #8A5240;
+
+  /* Type scale */
+  --text-hero:  clamp(3rem, 6vw, 5rem);
+  --text-h1:    clamp(2.25rem, 4vw, 3.5rem);
+  --text-h2:    clamp(1.75rem, 3vw, 2.5rem);
+  --text-h3:    clamp(1.25rem, 2vw, 1.5rem);
+  --text-quote: clamp(1.5rem, 2.5vw, 2rem);
+  --text-body:  1.0625rem;
+  --text-small: 0.875rem;
+  --text-tiny:  0.75rem;
+
+  --leading-display: 1.1;
+  --leading-body:    1.75;
+  --leading-tight:   1.3;
+
+  /* Spacing */
+  --space-xs:  0.5rem;
+  --space-sm:  1rem;
+  --space-md:  1.5rem;
+  --space-lg:  2.5rem;
+  --space-xl:  4rem;
+  --space-2xl: 6rem;
+  --space-3xl: 9rem;
+
+  --section-padding-y:        var(--space-3xl);
+  --section-padding-y-mobile: var(--space-2xl);
+  --container-max:            1080px;
+  --container-padding:        var(--space-lg);
+}

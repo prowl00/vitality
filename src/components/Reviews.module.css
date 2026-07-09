@@ -1,0 +1,22 @@
+.section {
+  background-color: var(--color-ivory);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.headline {
+  font-size: var(--text-h2);
+  max-width: 640px;
+}
+
+.placeholder {
+  background-color: var(--color-border);
+  border-radius: 4px;
+  height: 220px;
+  /* Awaiting Google Business Profile reviews */
+}

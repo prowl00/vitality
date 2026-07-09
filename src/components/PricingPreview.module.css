@@ -1,0 +1,84 @@
+.section {
+  background-color: var(--color-linen);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.headline {
+  font-size: var(--text-h2);
+  max-width: 640px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
+.card {
+  background-color: var(--color-ivory);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: var(--space-xl) var(--space-lg);
+}
+
+.featured {
+  border-color: var(--color-sage);
+}
+
+.badge {
+  display: block;
+  font-family: var(--font-body);
+  font-size: var(--text-tiny);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-sage);
+  margin-bottom: var(--space-md);
+}
+
+.tierName {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: 500;
+  color: var(--color-walnut);
+  margin-bottom: var(--space-sm);
+}
+
+.price {
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  color: var(--color-walnut);
+  margin-bottom: var(--space-xs);
+}
+
+.perSession {
+  font-size: var(--text-small);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+.saving {
+  font-size: var(--text-small);
+  color: var(--color-terracotta);
+  margin-bottom: var(--space-md);
+}
+
+.desc {
+  font-size: var(--text-small);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-body);
+}
+
+.footer {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .grid { grid-template-columns: 1fr; }
+}
