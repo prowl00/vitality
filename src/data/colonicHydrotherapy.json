@@ -1,40 +1,67 @@
 {
-  "metaTitle": "Colon Hydrotherapy in Barrie, Ontario | Vitality Source",
-  "metaDescription": "Certified colon hydrotherapy in Barrie, Ontario. Private, professional sessions with a certified practitioner. Book online with Vitality Source.",
-  "heroEyebrow": "Colon Hydrotherapy",
-  "heroHeadline": "What happens in a session — and why people come back.",
-  "heroImage": "",
+  "heroImage": "public/images/vitality-inside-hero-image.png",
+  "ctaHeadline": "Ready to book?",
+  "ctaLabel": "Book a Session",
+  "steps": [
+    {
+      "label": "Before you arrive",
+      "body": "Annette will send you a short intake form so she understands your background before you walk in. No extensive preparation is required, though she recommends eating lightly on the day of your session."
+    },
+    {
+      "label": "When you arrive",
+      "body": "You'll come into a quiet, private clinic. There's no reception area full of other clients. Annette meets you herself, every time."
+    },
+    {
+      "label": "During the session",
+      "body": "A session typically runs 45 to 60 minutes. You'll be in a private room throughout. Annette explains what's happening at each stage, so there's nothing that should catch you off guard."
+    },
+    {
+      "label": "Afterward",
+      "body": "Many clients describe feeling noticeably lighter after a session. Annette will give you simple aftercare guidance before you leave."
+    }
+  ],
   "heroImageAlt": "Treatment room or session photo",
-  "basicsHeadline": "The basics, plainly explained.",
   "basicsParagraphs": [
     "Colon hydrotherapy — also called colonic irrigation — is a process that uses warm, purified water to gently cleanse the large intestine. It's a private, controlled session conducted with professional-grade equipment by a certified practitioner.",
     "Many people seek it out as part of a broader wellness routine. Others come after a period of digestive discomfort, before or after a dietary reset, or simply because they want to feel more comfortable in their body.",
     "This isn't a medical treatment, and we don't position it as one. What we can tell you is that clients often describe leaving a session feeling cleaner, lighter, and more at ease than when they arrived."
   ],
-  "stepsHeadline": "Your session, step by step.",
-  "steps": [
-    { "label": "Before you arrive", "body": "Annette will send you a short intake form so she understands your background before you walk in. No extensive preparation is required, though she recommends eating lightly on the day of your session." },
-    { "label": "When you arrive", "body": "You'll come into a quiet, private clinic. There's no reception area full of other clients. Annette meets you herself, every time." },
-    { "label": "During the session", "body": "A session typically runs 45 to 60 minutes. You'll be in a private room throughout. Annette explains what's happening at each stage, so there's nothing that should catch you off guard." },
-    { "label": "Afterward", "body": "Many clients describe feeling noticeably lighter after a session. Annette will give you simple aftercare guidance before you leave." }
-  ],
-  "privacyHeadline": "Privacy and cleanliness — not an afterthought.",
+  "faqHeadline": "Questions people ask before their first session.",
   "privacyParagraphs": [
     "Every session takes place in a private room. The equipment is professional-grade and fully sanitized between clients. Single-use disposable components are used throughout — nothing is shared between clients.",
     "You don't need to feel self-conscious. Annette has been doing this work for over three years. Her priority is making sure you feel at ease from the moment you walk in."
   ],
-  "faqHeadline": "Questions people ask before their first session.",
-  "faqs": [
-    { "q": "Is colon hydrotherapy safe?", "a": "When performed by a trained, certified practitioner using professional equipment, colon hydrotherapy is well-tolerated by most people. Annette will review your health background before your session and will let you know if there's a reason to consult your doctor first." },
-    { "q": "Does it hurt?", "a": "Most clients report that the session is more comfortable than they expected. Mild sensations of pressure or warmth are the most common experience." },
-    { "q": "How many sessions will I need?", "a": "This is genuinely up to you. Many clients start with a single session to see how they feel. Others find a series of three or six sessions works better for them as part of a longer wellness routine." },
-    { "q": "Can I come if I have a health condition?", "a": "Please let Annette know about any health conditions, recent surgeries, or medications on your intake form. Some conditions are contraindications for this type of session. She will advise you honestly, and may recommend you check with your doctor before booking." },
-    { "q": "What should I avoid beforehand?", "a": "Eat lightly for a few hours before your session. Avoid heavy, gas-producing foods the day before if possible. Stay hydrated." }
-  ],
-  "ctaHeadline": "Ready to book?",
+  "heroHeadline": "What happens in a session — and why people come back.",
+  "heroEyebrow": "Colon Hydrotherapy",
   "ctaBody": "Sessions are available by appointment. Book directly online — you'll see Annette's availability and can confirm your time in a few clicks.",
-  "ctaLabel": "Book a Session",
+  "ctaNoteSuffix": " to see package options, or get in touch if you have a question.",
+  "metaTitle": "Colon Hydrotherapy in Barrie, Ontario | Vitality Source",
   "ctaNotePrefix": "Not sure yet? ",
+  "metaDescription": "Certified colon hydrotherapy in Barrie, Ontario. Private, professional sessions with a certified practitioner. Book online with Vitality Source.",
   "ctaNoteLinkLabel": "Visit the Pricing & Booking page",
-  "ctaNoteSuffix": " to see package options, or get in touch if you have a question."
+  "basicsHeadline": "The basics, plainly explained.",
+  "stepsHeadline": "Your session, step by step.",
+  "privacyHeadline": "Privacy and cleanliness — not an afterthought.",
+  "faqs": [
+    {
+      "q": "Is colon hydrotherapy safe?",
+      "a": "When performed by a trained, certified practitioner using professional equipment, colon hydrotherapy is well-tolerated by most people. Annette will review your health background before your session and will let you know if there's a reason to consult your doctor first."
+    },
+    {
+      "q": "Does it hurt?",
+      "a": "Most clients report that the session is more comfortable than they expected. Mild sensations of pressure or warmth are the most common experience."
+    },
+    {
+      "q": "How many sessions will I need?",
+      "a": "This is genuinely up to you. Many clients start with a single session to see how they feel. Others find a series of three or six sessions works better for them as part of a longer wellness routine."
+    },
+    {
+      "q": "Can I come if I have a health condition?",
+      "a": "Please let Annette know about any health conditions, recent surgeries, or medications on your intake form. Some conditions are contraindications for this type of session. She will advise you honestly, and may recommend you check with your doctor before booking."
+    },
+    {
+      "q": "What should I avoid beforehand?",
+      "a": "Eat lightly for a few hours before your session. Avoid heavy, gas-producing foods the day before if possible. Stay hydrated."
+    }
+  ]
 }
