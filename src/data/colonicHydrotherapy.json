@@ -1,5 +1,5 @@
 {
-  "heroImage": "/images/vitality-inside-hero-image.png",
+  "heroImage": "public/images/vitality-inside-hero-image.png",
   "ctaHeadline": "Ready to book?",
   "ctaLabel": "Book a Session",
   "steps": [
