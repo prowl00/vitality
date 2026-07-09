@@ -2,15 +2,10 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import styles from './Nav.module.css';
+import site from '@/data/site.json';
 
-const links = [
-  { label: 'Colon Hydrotherapy', href: '/colonic-hydrotherapy' },
-  { label: 'Lymphatic Drainage', href: '/lymphatic-drainage' },
-  { label: 'About', href: '/about' },
-  { label: 'Pricing', href: '/pricing' },
-];
-
-const BOOKING_URL = 'https://book.squareup.com/appointments/g77s04j20bbscc/location/LMYFWTSFAX72S/services/LLSFRQ3GFUTQOBNJWCW4CTYZ';
+const links = site.nav.links;
+const BOOKING_URL = site.bookingUrl;
 
 export default function Nav() {
   const [open, setOpen] = useState(false);

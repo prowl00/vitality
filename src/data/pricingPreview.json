@@ -1,0 +1,32 @@
+{
+  "eyebrow": "Pricing",
+  "headline": "Transparent pricing. No surprises.",
+  "tiers": [
+    {
+      "name": "New Client Session",
+      "price": "$140",
+      "perSession": "",
+      "saving": "",
+      "description": "First time at Vitality Source? This session is your starting point. Annette will take time to understand your background before you begin.",
+      "featured": false
+    },
+    {
+      "name": "Single Session",
+      "price": "$125",
+      "perSession": "",
+      "saving": "",
+      "description": "Book any time, no commitment required.",
+      "featured": false
+    },
+    {
+      "name": "Package of 3",
+      "price": "$330",
+      "perSession": "$110 / session",
+      "saving": "Save $15 per session",
+      "description": "A good starting point if you're exploring a regular wellness routine.",
+      "featured": true
+    }
+  ],
+  "footerLinkLabel": "See Full Pricing & Savings →",
+  "footerLinkHref": "/pricing"
+}

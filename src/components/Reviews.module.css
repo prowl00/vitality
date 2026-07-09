@@ -18,5 +18,29 @@
   background-color: var(--color-border);
   border-radius: 4px;
   height: 220px;
-  /* Awaiting Google Business Profile reviews */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-lg);
+}
+
+.card {
+  background-color: var(--color-linen);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: var(--space-xl) var(--space-lg);
+}
+
+.quote {
+  font-family: var(--font-display);
+  font-size: var(--text-h3);
+  line-height: var(--leading-body);
+  margin-bottom: var(--space-md);
+}
+
+.author {
+  color: var(--color-text-secondary);
+  font-size: var(--text-small);
 }

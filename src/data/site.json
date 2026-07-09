@@ -1,0 +1,39 @@
+{
+  "name": "Vitality Source",
+  "bookingUrl": "https://book.squareup.com/appointments/g77s04j20bbscc/location/LMYFWTSFAX72S/services/LLSFRQ3GFUTQOBNJWCW4CTYZ",
+  "phone": "416-909-9320",
+  "phoneHref": "+14169099320",
+  "email": "info@thevitalitysource.ca",
+  "address": {
+    "street": "5 Bradford St.",
+    "cityLine": "Barrie, ON L4N 3B7"
+  },
+  "hours": {
+    "days": "Tuesday – Saturday",
+    "time": "10:00 AM – 6:00 PM",
+    "daysShort": "Tue – Sat, 10 AM – 6 PM"
+  },
+  "social": {
+    "instagram": "#",
+    "facebook": "#"
+  },
+  "nav": {
+    "links": [
+      { "label": "Colon Hydrotherapy", "href": "/colonic-hydrotherapy" },
+      { "label": "Lymphatic Drainage", "href": "/lymphatic-drainage" },
+      { "label": "About", "href": "/about" },
+      { "label": "Pricing", "href": "/pricing" }
+    ]
+  },
+  "footer": {
+    "tagline": "Certified colon hydrotherapy & lymphatic drainage — Barrie, Ontario.",
+    "navLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "Colon Hydrotherapy", "href": "/colonic-hydrotherapy" },
+      { "label": "Lymphatic Drainage", "href": "/lymphatic-drainage" },
+      { "label": "About", "href": "/about" },
+      { "label": "Pricing & Booking", "href": "/pricing" }
+    ],
+    "disclaimer": "Services provided by Vitality Source are not regulated health treatments in Ontario and are not a substitute for professional medical care."
+  }
+}

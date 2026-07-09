@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Our Services",
+  "headline": "Two services. One practitioner who knows your name.",
+  "items": [
+    {
+      "name": "Colon Hydrotherapy",
+      "description": "A gentle, thorough cleanse of the large intestine. Many clients describe leaving a session feeling noticeably lighter, more comfortable, and more at ease in their body. Sessions take place in a fully private room with professional equipment.",
+      "href": "/colonic-hydrotherapy"
+    },
+    {
+      "name": "Lymphatic Drainage",
+      "description": "A gentle manual technique focused on supporting the body's natural lymphatic flow. Clients often describe a sense of ease and reduced heaviness after a session. A quiet, restful experience that many find deeply relaxing.",
+      "href": "/lymphatic-drainage"
+    }
+  ]
+}

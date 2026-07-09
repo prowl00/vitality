@@ -318,6 +318,10 @@
   max-width: 720px;
 }
 
+.bookingCtaWrap {
+  margin-top: var(--space-lg);
+}
+
 .bookingNote {
   font-size: var(--text-small);
   color: var(--color-text-secondary);

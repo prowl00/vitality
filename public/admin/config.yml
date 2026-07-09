@@ -1,0 +1,334 @@
+backend:
+  name: github
+  repo: prowl00/vitality
+  branch: main
+  base_url: https://thevitalitysource.ca
+  auth_endpoint: /oauth/auth
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: content
+    label: Site Content
+    files:
+
+      - name: site
+        label: "Site Info & Contact"
+        file: src/data/site.json
+        format: json
+        fields:
+          - { label: "Organization Name", name: name, widget: string }
+          - { label: "Square Booking URL", name: bookingUrl, widget: string }
+          - { label: Phone (display), name: phone, widget: string }
+          - { label: "Phone (tel: link, e.g. +14169099320)", name: phoneHref, widget: string }
+          - { label: Email, name: email, widget: string }
+          - label: Address
+            name: address
+            widget: object
+            fields:
+              - { label: Street, name: street, widget: string }
+              - { label: "City / Province / Postal Code", name: cityLine, widget: string }
+          - label: Hours
+            name: hours
+            widget: object
+            fields:
+              - { label: "Days (long, e.g. Tuesday – Saturday)", name: days, widget: string }
+              - { label: "Time (e.g. 10:00 AM – 6:00 PM)", name: time, widget: string }
+              - { label: "Days (short, e.g. Tue – Sat, 10 AM – 6 PM)", name: daysShort, widget: string }
+          - label: "Social Links"
+            name: social
+            widget: object
+            fields:
+              - { label: "Instagram URL", name: instagram, widget: string }
+              - { label: "Facebook URL", name: facebook, widget: string }
+          - label: "Main Navigation"
+            name: nav
+            widget: object
+            fields:
+              - label: Links
+                name: links
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Href, name: href, widget: string }
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - { label: Tagline, name: tagline, widget: string }
+              - label: "Footer Links"
+                name: navLinks
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Href, name: href, widget: string }
+              - { label: "Disclaimer Text", name: disclaimer, widget: text }
+
+      - name: hero
+        label: "Home — Hero Section"
+        file: src/data/hero.json
+        format: json
+        fields:
+          - { label: "Eyebrow Tag", name: eyebrow, widget: string }
+          - { label: Headline, name: headline, widget: string }
+          - { label: Subheadline, name: subheadline, widget: text }
+          - { label: "Button Text", name: ctaLabel, widget: string }
+          - { label: "Hero Image", name: heroImage, widget: image }
+          - { label: "Hero Image Alt Text", name: heroImageAlt, widget: string }
+          - { label: "Hero Image Crop Position (CSS object-position)", name: heroImagePosition, widget: string }
+
+      - name: trustStrip
+        label: "Home — Trust Strip"
+        file: src/data/trustStrip.json
+        format: json
+        fields:
+          - label: Items
+            name: items
+            widget: list
+            field: { label: Item, name: item, widget: string }
+
+      - name: services
+        label: "Home — Services"
+        file: src/data/services.json
+        format: json
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Headline, name: headline, widget: string }
+          - label: Services
+            name: items
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: "Link (page href)", name: href, widget: string }
+
+      - name: meetAnnette
+        label: "Home — Meet Annette"
+        file: src/data/meetAnnette.json
+        format: json
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: "Pull Quote", name: quote, widget: string }
+          - label: "Body Paragraphs"
+            name: paragraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+          - { label: "Link Label", name: linkLabel, widget: string }
+          - { label: "Link Href", name: linkHref, widget: string }
+          - { label: Photo, name: photo, widget: image }
+          - { label: "Photo Alt Text", name: photoAlt, widget: string }
+
+      - name: pricingPreview
+        label: "Home — Pricing Preview"
+        file: src/data/pricingPreview.json
+        format: json
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Headline, name: headline, widget: string }
+          - label: Tiers
+            name: tiers
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Price, name: price, widget: string }
+              - { label: "Per-Session Price (optional)", name: perSession, widget: string, required: false }
+              - { label: "Saving Note (optional)", name: saving, widget: string, required: false }
+              - { label: Description, name: description, widget: text }
+              - { label: "Featured / Most Popular", name: featured, widget: boolean, default: false }
+          - { label: "Footer Link Label", name: footerLinkLabel, widget: string }
+          - { label: "Footer Link Href", name: footerLinkHref, widget: string }
+
+      - name: reviews
+        label: "Home — Reviews"
+        file: src/data/reviews.json
+        format: json
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Headline, name: headline, widget: string }
+          - label: Reviews
+            name: items
+            widget: list
+            fields:
+              - { label: "Reviewer Name", name: author, widget: string }
+              - { label: "Review Quote", name: quote, widget: text }
+
+      - name: faq
+        label: "Home — FAQ"
+        file: src/data/faq.json
+        format: json
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Headline, name: headline, widget: string }
+          - label: Questions
+            name: items
+            widget: list
+            fields:
+              - { label: Question, name: q, widget: string }
+              - { label: Answer, name: a, widget: text }
+
+      - name: bookingCta
+        label: "Home — Booking CTA"
+        file: src/data/bookingCta.json
+        format: json
+        fields:
+          - { label: Headline, name: headline, widget: string }
+          - { label: Body, name: body, widget: text }
+          - { label: "Button Text", name: ctaLabel, widget: string }
+
+      - name: about
+        label: "About Page"
+        file: src/data/about.json
+        format: json
+        fields:
+          - { label: "SEO Title", name: metaTitle, widget: string }
+          - { label: "SEO Description", name: metaDescription, widget: text }
+          - { label: "Hero Eyebrow", name: heroEyebrow, widget: string }
+          - { label: "Hero Headline", name: heroHeadline, widget: string }
+          - { label: "Hero Photo", name: heroPhoto, widget: image }
+          - { label: "Hero Photo Alt Text", name: heroPhotoAlt, widget: string }
+          - { label: "Story Section Headline", name: storyHeadline, widget: string }
+          - label: "Story Paragraphs"
+            name: storyParagraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+          - { label: "Philosophy Section Headline", name: philosophyHeadline, widget: string }
+          - label: "Philosophy Paragraphs"
+            name: philosophyParagraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+          - { label: "Credentials Section Headline", name: credentialsHeadline, widget: string }
+          - label: Credentials
+            name: credentials
+            widget: list
+            field: { label: Credential, name: credential, widget: string }
+          - { label: "CTA Headline", name: ctaHeadline, widget: string }
+          - { label: "CTA Body", name: ctaBody, widget: text }
+          - { label: "CTA Button Text", name: ctaLabel, widget: string }
+
+      - name: colonicHydrotherapy
+        label: "Colon Hydrotherapy Page"
+        file: src/data/colonicHydrotherapy.json
+        format: json
+        fields:
+          - { label: "SEO Title", name: metaTitle, widget: string }
+          - { label: "SEO Description", name: metaDescription, widget: text }
+          - { label: "Hero Eyebrow", name: heroEyebrow, widget: string }
+          - { label: "Hero Headline", name: heroHeadline, widget: string }
+          - { label: "Hero Image (optional — leave blank to show placeholder)", name: heroImage, widget: image, required: false }
+          - { label: "Hero Image Alt Text", name: heroImageAlt, widget: string }
+          - { label: "Basics Section Headline", name: basicsHeadline, widget: string }
+          - label: "Basics Paragraphs"
+            name: basicsParagraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+          - { label: "Steps Section Headline", name: stepsHeadline, widget: string }
+          - label: Steps
+            name: steps
+            widget: list
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Body, name: body, widget: text }
+          - { label: "Privacy Section Headline", name: privacyHeadline, widget: string }
+          - label: "Privacy Paragraphs"
+            name: privacyParagraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+          - { label: "FAQ Section Headline", name: faqHeadline, widget: string }
+          - label: FAQs
+            name: faqs
+            widget: list
+            fields:
+              - { label: Question, name: q, widget: string }
+              - { label: Answer, name: a, widget: text }
+          - { label: "CTA Headline", name: ctaHeadline, widget: string }
+          - { label: "CTA Body", name: ctaBody, widget: text }
+          - { label: "CTA Button Text", name: ctaLabel, widget: string }
+          - { label: "CTA Note — Prefix Text", name: ctaNotePrefix, widget: string }
+          - { label: "CTA Note — Link Label", name: ctaNoteLinkLabel, widget: string }
+          - { label: "CTA Note — Suffix Text", name: ctaNoteSuffix, widget: string }
+
+      - name: lymphaticDrainage
+        label: "Lymphatic Drainage Page"
+        file: src/data/lymphaticDrainage.json
+        format: json
+        fields:
+          - { label: "SEO Title", name: metaTitle, widget: string }
+          - { label: "SEO Description", name: metaDescription, widget: text }
+          - { label: "Hero Eyebrow", name: heroEyebrow, widget: string }
+          - { label: "Hero Headline", name: heroHeadline, widget: string }
+          - { label: "Hero Image (optional — leave blank to show placeholder)", name: heroImage, widget: image, required: false }
+          - { label: "Hero Image Alt Text", name: heroImageAlt, widget: string }
+          - { label: "‘A Quieter Session’ Headline", name: quietSessionHeadline, widget: string }
+          - label: "‘A Quieter Session’ Paragraphs"
+            name: quietSessionParagraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+          - { label: "‘Who Comes’ Headline", name: whoComesHeadline, widget: string }
+          - label: "‘Who Comes’ Paragraphs"
+            name: whoComesParagraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+          - { label: "‘How It Works’ Headline", name: howWorksHeadline, widget: string }
+          - label: "‘How It Works’ Paragraphs"
+            name: howWorksParagraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+          - { label: "FAQ Section Headline", name: faqHeadline, widget: string }
+          - label: FAQs
+            name: faqs
+            widget: list
+            fields:
+              - { label: Question, name: q, widget: string }
+              - { label: Answer, name: a, widget: text }
+          - { label: "CTA Headline", name: ctaHeadline, widget: string }
+          - { label: "CTA Body", name: ctaBody, widget: text }
+          - { label: "CTA Button Text", name: ctaLabel, widget: string }
+          - { label: "CTA Note — Prefix Text", name: ctaNotePrefix, widget: string }
+          - { label: "CTA Note — Link Label", name: ctaNoteLinkLabel, widget: string }
+          - { label: "CTA Note — Suffix Text", name: ctaNoteSuffix, widget: string }
+
+      - name: pricing
+        label: "Pricing & Booking Page"
+        file: src/data/pricing.json
+        format: json
+        fields:
+          - { label: "SEO Title", name: metaTitle, widget: string }
+          - { label: "SEO Description", name: metaDescription, widget: text }
+          - { label: "Hero Eyebrow", name: heroEyebrow, widget: string }
+          - { label: "Hero Headline", name: heroHeadline, widget: string }
+          - { label: "Hero Image (optional — leave blank to show placeholder)", name: heroImage, widget: image, required: false }
+          - { label: "Hero Image Alt Text", name: heroImageAlt, widget: string }
+          - { label: "Colon Hydrotherapy Section Headline", name: colonicHeadline, widget: string }
+          - label: "New Client Session"
+            name: newClient
+            widget: object
+            fields:
+              - { label: "Label (e.g. New clients)", name: label, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Price, name: price, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: "Button Text", name: ctaLabel, widget: string }
+          - label: "Colon Hydrotherapy Tiers"
+            name: colonicTiers
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Price, name: price, widget: string }
+              - { label: "Per-Session Price (optional)", name: perSession, widget: string, required: false }
+              - { label: "Saving Note (optional)", name: saving, widget: string, required: false }
+              - { label: Description, name: description, widget: text }
+              - { label: "Featured / Most Popular", name: featured, widget: boolean, default: false }
+          - { label: "Lymphatic Drainage Section Headline", name: lymphaticHeadline, widget: string }
+          - { label: "Lymphatic Drainage Pricing Note", name: lymphaticNote, widget: text }
+          - { label: "Includes Section Headline", name: includesHeadline, widget: string }
+          - label: "What's Included"
+            name: includes
+            widget: list
+            field: { label: Item, name: item, widget: string }
+          - { label: "Booking Section Headline", name: bookingHeadline, widget: string }
+          - { label: "Booking Body Text", name: bookingBody, widget: text }
+          - { label: "Booking Button Text", name: bookingCtaLabel, widget: string }
+          - { label: "Booking Note — Prefix Text", name: bookingNotePrefix, widget: string }
+          - { label: "Booking Note — Middle Text (between email and phone)", name: bookingNoteMiddle, widget: string }
+          - { label: "Hours & Location Section Headline", name: hoursHeadline, widget: string }

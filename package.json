@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "preview": "npx serve out",
+    "lint": "eslint",
+    "cms": "npx decap-server",
+    "deploy": "npm run build && rsync -avz --delete out/ <SSH_TARGET>:/var/www/vhosts/thevitalitysource.ca/httpdocs/",
+    "deploy:scp": "npm run build && scp -r out/. <SSH_TARGET>:/var/www/vhosts/thevitalitysource.ca/httpdocs/"
   },
   "dependencies": {
     "next": "16.2.9",

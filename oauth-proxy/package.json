@@ -1,0 +1,9 @@
+{
+  "name": "vitality-oauth-proxy",
+  "version": "1.0.0",
+  "description": "GitHub OAuth proxy for Decap CMS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

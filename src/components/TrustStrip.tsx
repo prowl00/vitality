@@ -1,11 +1,7 @@
 import styles from './TrustStrip.module.css';
+import trustStrip from '@/data/trustStrip.json';
 
-const items = [
-  'Certified Practitioner',
-  'Private Rooms',
-  '3+ Years in Barrie',
-  '★ Google Reviews',
-];
+const items = trustStrip.items;
 
 export default function TrustStrip() {
   return (
