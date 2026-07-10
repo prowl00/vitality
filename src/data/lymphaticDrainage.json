@@ -1,38 +1,50 @@
 {
-  "metaTitle": "Lymphatic Drainage in Barrie, Ontario | Vitality Source",
-  "metaDescription": "Gentle lymphatic drainage sessions in Barrie, Ontario. Certified practitioner. Private appointments. Book online with Vitality Source.",
-  "heroEyebrow": "Lymphatic Drainage",
-  "heroHeadline": "Gentle, restorative — and deeply relaxing for most clients.",
-  "heroImage": "",
-  "heroImageAlt": "Treatment room or session photo",
-  "quietSessionHeadline": "A quieter kind of session.",
+  "heroImage": "public/images/vitality-inside-hero-image.png",
+  "ctaHeadline": "Book your session.",
+  "ctaLabel": "Book a Session",
+  "whoComesHeadline": "Who comes for lymphatic drainage sessions.",
+  "howWorksHeadline": "How a session works.",
   "quietSessionParagraphs": [
     "Lymphatic drainage is a gentle manual technique designed to support the body's lymphatic system — a network of vessels and nodes that plays a role in the body's natural circulation and immune function.",
     "The session itself is slow, light-pressured, and methodical. Most clients find it deeply relaxing — more restful than a conventional massage, with a sense of ease or lightness that many describe feeling afterward.",
     "This is not a medical treatment, and we don't position it as one. It's a wellness session for people who want to feel better in their body."
   ],
-  "whoComesHeadline": "Who comes for lymphatic drainage sessions.",
+  "heroImageAlt": "Treatment room or session photo",
+  "faqHeadline": "Common questions about lymphatic drainage.",
+  "heroHeadline": "Gentle, restorative — and deeply relaxing for most clients.",
+  "heroEyebrow": "Lymphatic Drainage",
+  "ctaBody": "Sessions are available by appointment. Use the link below to see Annette's availability and confirm your booking directly.",
+  "ctaNoteSuffix": " or contact Annette directly.",
+  "metaTitle": "Lymphatic Drainage in Barrie, Ontario | Vitality Source",
+  "ctaNotePrefix": "Questions first? ",
   "whoComesParagraphs": [
     "People come to lymphatic drainage for a range of reasons. Some are looking for a quiet, restorative experience as part of their wellness routine. Others are managing a sense of puffiness, sluggishness, or general heaviness and want to try something gentle. Some come on the recommendation of a health professional.",
     "If you're considering a session following a recent surgery or medical procedure, we'd encourage you to check with your doctor or surgeon before booking — not because a session is likely to be a concern, but because your provider knows your specific situation best. Annette is happy to answer any questions you have before you decide."
   ],
-  "howWorksHeadline": "How a session works.",
+  "quietSessionHeadline": "A quieter kind of session.",
+  "metaDescription": "Gentle lymphatic drainage sessions in Barrie, Ontario. Certified practitioner. Private appointments. Book online with Vitality Source.",
   "howWorksParagraphs": [
     "Lymphatic drainage sessions with Annette are one-on-one, in a fully private room. The technique involves gentle, rhythmic manual movements following the lymphatic pathways of the body.",
     "Sessions typically run 45 to 60 minutes. You'll be in comfortable surroundings throughout, and Annette will check in with you about pressure and comfort during the session.",
     "Many clients describe a sense of calm and ease during the session itself, and a feeling of being lighter or less congested afterward."
   ],
-  "faqHeadline": "Common questions about lymphatic drainage.",
-  "faqs": [
-    { "q": "Is this the same as a massage?", "a": "Not exactly. Lymphatic drainage uses much lighter pressure than a conventional massage, and the movements follow a specific pattern along the lymphatic system. Most people find it less intense and more relaxing than a regular massage." },
-    { "q": "Does it hurt?", "a": "Most clients find lymphatic drainage very comfortable. The pressure is intentionally light and gentle. If anything feels uncomfortable, let Annette know and she'll adjust." },
-    { "q": "How many sessions are recommended?", "a": "This depends entirely on you and your goals. A single session is a good way to understand how you respond to the technique. Some clients find they prefer a series of sessions as part of a longer wellness routine." },
-    { "q": "Can I combine this with a colon hydrotherapy session?", "a": "Many clients at Vitality Source use both services as part of their routine. You can discuss what might work best for you with Annette before booking." }
-  ],
-  "ctaHeadline": "Book your session.",
-  "ctaBody": "Sessions are available by appointment. Use the link below to see Annette's availability and confirm your booking directly.",
-  "ctaLabel": "Book a Session",
-  "ctaNotePrefix": "Questions first? ",
   "ctaNoteLinkLabel": "Visit the Pricing & Booking page",
-  "ctaNoteSuffix": " or contact Annette directly."
+  "faqs": [
+    {
+      "q": "Is this the same as a massage?",
+      "a": "Not exactly. Lymphatic drainage uses much lighter pressure than a conventional massage, and the movements follow a specific pattern along the lymphatic system. Most people find it less intense and more relaxing than a regular massage."
+    },
+    {
+      "q": "Does it hurt?",
+      "a": "Most clients find lymphatic drainage very comfortable. The pressure is intentionally light and gentle. If anything feels uncomfortable, let Annette know and she'll adjust."
+    },
+    {
+      "q": "How many sessions are recommended?",
+      "a": "This depends entirely on you and your goals. A single session is a good way to understand how you respond to the technique. Some clients find they prefer a series of sessions as part of a longer wellness routine."
+    },
+    {
+      "q": "Can I combine this with a colon hydrotherapy session?",
+      "a": "Many clients at Vitality Source use both services as part of their routine. You can discuss what might work best for you with Annette before booking."
+    }
+  ]
 }
