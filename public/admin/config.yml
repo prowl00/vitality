@@ -74,7 +74,7 @@ collections:
           - { label: Headline, name: headline, widget: string }
           - { label: Subheadline, name: subheadline, widget: text }
           - { label: "Button Text", name: ctaLabel, widget: string }
-          - { label: "Hero Image", name: heroImage, widget: image, media_folder: "public/images", public_folder: "/images" }
+          - { label: "Hero Image", name: heroImage, widget: image, media_folder: "/public/images", public_folder: "/images" }
           - { label: "Hero Image Alt Text", name: heroImageAlt, widget: string }
           - { label: "Hero Image Crop Position (CSS object-position)", name: heroImagePosition, widget: string }
 
@@ -116,7 +116,7 @@ collections:
             field: { label: Paragraph, name: paragraph, widget: text }
           - { label: "Link Label", name: linkLabel, widget: string }
           - { label: "Link Href", name: linkHref, widget: string }
-          - { label: Photo, name: photo, widget: image, media_folder: "public/images", public_folder: "/images" }
+          - { label: Photo, name: photo, widget: image, media_folder: "/public/images", public_folder: "/images" }
           - { label: "Photo Alt Text", name: photoAlt, widget: string }
 
       - name: pricingPreview
@@ -185,7 +185,7 @@ collections:
           - { label: "SEO Description", name: metaDescription, widget: text }
           - { label: "Hero Eyebrow", name: heroEyebrow, widget: string }
           - { label: "Hero Headline", name: heroHeadline, widget: string }
-          - { label: "Hero Photo", name: heroPhoto, widget: image, media_folder: "public/images", public_folder: "/images" }
+          - { label: "Hero Photo", name: heroPhoto, widget: image, media_folder: "/public/images", public_folder: "/images" }
           - { label: "Hero Photo Alt Text", name: heroPhotoAlt, widget: string }
           - { label: "Story Section Headline", name: storyHeadline, widget: string }
           - label: "Story Paragraphs"
@@ -215,7 +215,7 @@ collections:
           - { label: "SEO Description", name: metaDescription, widget: text }
           - { label: "Hero Eyebrow", name: heroEyebrow, widget: string }
           - { label: "Hero Headline", name: heroHeadline, widget: string }
-          - { label: "Hero Image (optional — leave blank to show placeholder)", name: heroImage, widget: image, required: false, media_folder: "public/images", public_folder: "/images" }
+          - { label: "Hero Image (optional — leave blank to show placeholder)", name: heroImage, widget: image, required: false, media_folder: "/public/images", public_folder: "/images" }
           - { label: "Hero Image Alt Text", name: heroImageAlt, widget: string }
           - { label: "Basics Section Headline", name: basicsHeadline, widget: string }
           - label: "Basics Paragraphs"
@@ -257,7 +257,7 @@ collections:
           - { label: "SEO Description", name: metaDescription, widget: text }
           - { label: "Hero Eyebrow", name: heroEyebrow, widget: string }
           - { label: "Hero Headline", name: heroHeadline, widget: string }
-          - { label: "Hero Image (optional — leave blank to show placeholder)", name: heroImage, widget: image, required: false, media_folder: "public/images", public_folder: "/images" }
+          - { label: "Hero Image (optional — leave blank to show placeholder)", name: heroImage, widget: image, required: false, media_folder: "/public/images", public_folder: "/images" }
           - { label: "Hero Image Alt Text", name: heroImageAlt, widget: string }
           - { label: "‘A Quieter Session’ Headline", name: quietSessionHeadline, widget: string }
           - label: "‘A Quieter Session’ Paragraphs"
@@ -297,7 +297,7 @@ collections:
           - { label: "SEO Description", name: metaDescription, widget: text }
           - { label: "Hero Eyebrow", name: heroEyebrow, widget: string }
           - { label: "Hero Headline", name: heroHeadline, widget: string }
-          - { label: "Hero Image (optional — leave blank to show placeholder)", name: heroImage, widget: image, required: false, media_folder: "public/images", public_folder: "/images" }
+          - { label: "Hero Image (optional — leave blank to show placeholder)", name: heroImage, widget: image, required: false, media_folder: "/public/images", public_folder: "/images" }
           - { label: "Hero Image Alt Text", name: heroImageAlt, widget: string }
           - { label: "Colon Hydrotherapy Section Headline", name: colonicHeadline, widget: string }
           - label: "New Client Session"

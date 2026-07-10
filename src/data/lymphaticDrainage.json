@@ -1,5 +1,5 @@
 {
-  "heroImage": "public/images/vitality-inside-hero-image.png",
+  "heroImage": "/images/vitality-inside-hero-image.png",
   "ctaHeadline": "Book your session.",
   "ctaLabel": "Book a Session",
   "whoComesHeadline": "Who comes for lymphatic drainage sessions.",
