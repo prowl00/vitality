@@ -1,6 +1,6 @@
 {
   "bookingNoteMiddle": " or ",
-  "heroImage": "public/images/vitality-inside-hero-image.png",
+  "heroImage": "/images/vitality-inside-hero-image.png",
   "hoursHeadline": "Hours & location.",
   "heroImageAlt": "Clinic or treatment room photo",
   "includes": [
