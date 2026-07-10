@@ -1,27 +1,8 @@
 {
-  "metaTitle": "Pricing & Booking — Colon Hydrotherapy in Barrie | Vitality Source",
-  "metaDescription": "Transparent session pricing and online booking for colon hydrotherapy and lymphatic drainage in Barrie, Ontario. Single sessions and multi-session packages available.",
-  "heroEyebrow": "Pricing & Booking",
-  "heroHeadline": "Simple, transparent pricing — with savings for every step up.",
-  "heroImage": "",
+  "bookingNoteMiddle": " or ",
+  "heroImage": "public/images/vitality-inside-hero-image.png",
+  "hoursHeadline": "Hours & location.",
   "heroImageAlt": "Clinic or treatment room photo",
-  "colonicHeadline": "Colon hydrotherapy sessions.",
-  "newClient": {
-    "label": "New clients",
-    "name": "New Client Session",
-    "price": "$140",
-    "description": "First time at Vitality Source? This session is your starting point. Annette will take time to understand your health background and what you're hoping to get out of your session before you begin.",
-    "ctaLabel": "Book your first session"
-  },
-  "colonicTiers": [
-    { "name": "Single Session", "price": "$125", "perSession": "", "saving": "", "description": "Book any time, with no package commitment.", "featured": false },
-    { "name": "Package of 3", "price": "$330", "perSession": "$110 / session", "saving": "Save $15 per session", "description": "A practical starting point if you're exploring a regular wellness routine.", "featured": true },
-    { "name": "Package of 6", "price": "$650", "perSession": "$108 / session", "saving": "Save $17 per session", "description": "For clients who want to give themselves time to feel the difference over a series.", "featured": false },
-    { "name": "Package of 10", "price": "$1,000", "perSession": "$100 / session", "saving": "Best per-session value", "description": "For clients making colon hydrotherapy a regular part of their health routine.", "featured": false }
-  ],
-  "lymphaticHeadline": "Lymphatic drainage sessions.",
-  "lymphaticNote": "Lymphatic drainage pricing coming soon — contact Annette directly to discuss session rates.",
-  "includesHeadline": "What every session includes.",
   "includes": [
     "A private, fully equipped treatment room",
     "Professional-grade equipment with single-use disposable components",
@@ -29,10 +10,57 @@
     "Aftercare guidance before you leave",
     "Direct access to Annette — the same practitioner, every visit"
   ],
+  "newClient": {
+    "label": "New clients",
+    "name": "New Client Session",
+    "price": "$140",
+    "description": "First time at Vitality Source? This session is your starting point. Annette will take time to understand your health background and what you're hoping to get out of your session before you begin.",
+    "ctaLabel": "Book your first session"
+  },
   "bookingHeadline": "Book your session now.",
+  "colonicHeadline": "Colon hydrotherapy sessions.",
+  "heroHeadline": "Simple, transparent pricing — with savings for every step up.",
+  "heroEyebrow": "Pricing & Booking",
+  "metaTitle": "Pricing & Booking — Colon Hydrotherapy in Barrie | Vitality Source",
+  "lymphaticNote": "Lymphatic drainage pricing coming soon — contact Annette directly to discuss session rates.",
+  "metaDescription": "Transparent session pricing and online booking for colon hydrotherapy and lymphatic drainage in Barrie, Ontario. Single sessions and multi-session packages available.",
+  "colonicTiers": [
+    {
+      "name": "Single Session",
+      "price": "$125",
+      "perSession": "",
+      "saving": "",
+      "description": "Book any time, with no package commitment.",
+      "featured": false
+    },
+    {
+      "name": "Package of 3",
+      "price": "$330",
+      "perSession": "$110 / session",
+      "saving": "Save $15 per session",
+      "description": "A practical starting point if you're exploring a regular wellness routine.",
+      "featured": true
+    },
+    {
+      "name": "Package of 6",
+      "price": "$650",
+      "perSession": "$108 / session",
+      "saving": "Save $17 per session",
+      "description": "For clients who want to give themselves time to feel the difference over a series.",
+      "featured": false
+    },
+    {
+      "name": "Package of 10",
+      "price": "$1,000",
+      "perSession": "$100 / session",
+      "saving": "Best per-session value",
+      "description": "For clients making colon hydrotherapy a regular part of their health routine.",
+      "featured": false
+    }
+  ],
+  "lymphaticHeadline": "Lymphatic drainage sessions.",
   "bookingBody": "Use the link below to choose your service, select a time, and confirm your appointment. You'll receive a confirmation by email.",
   "bookingCtaLabel": "Book Your Session",
   "bookingNotePrefix": "Prefer to ask a question first? Reach Annette at ",
-  "bookingNoteMiddle": " or ",
-  "hoursHeadline": "Hours & location."
+  "includesHeadline": "What every session includes."
 }
