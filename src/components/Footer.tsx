@@ -9,7 +9,15 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={`container ${styles.grid}`}>
         <div className={styles.brand}>
-          <Link href="/" className={styles.logo}>{site.name}</Link>
+          <Link href="/" className={styles.logo}>
+            <img
+              src="/images/vitality-source-wordmark-ivory.svg"
+              alt={site.name}
+              width={2120.88}
+              height={759.3}
+              className={styles.logoImage}
+            />
+          </Link>
           <p className={styles.tagline}>{site.footer.tagline}</p>
         </div>
 

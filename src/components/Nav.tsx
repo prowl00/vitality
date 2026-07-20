@@ -13,7 +13,15 @@ export default function Nav() {
   return (
     <header className={styles.header}>
       <nav className={`container ${styles.nav}`}>
-        <Link href="/" className={styles.logo}>Vitality Source</Link>
+        <Link href="/" className={styles.logo}>
+          <img
+            src="/images/vitality-source-wordmark-sage.svg"
+            alt="Vitality Source"
+            width={2120.88}
+            height={759.3}
+            className={styles.logoImage}
+          />
+        </Link>
 
         <ul className={styles.links}>
           {links.map(l => (

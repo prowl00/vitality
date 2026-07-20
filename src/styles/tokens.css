@@ -49,4 +49,6 @@
   --section-padding-y-mobile: var(--space-2xl);
   --container-max:            1080px;
   --container-padding:        var(--space-lg);
+
+  --nav-height: 7rem;
 }

@@ -9,26 +9,30 @@
 }
 
 .nav {
-  height: 4.5rem;
+  height: var(--nav-height);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-lg);
+  gap: var(--space-md);
 }
 
 .logo {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: var(--color-walnut);
-  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
+  line-height: 0;
+}
+
+.logoImage {
+  display: block;
+  height: 5rem;
+  width: auto;
 }
 
 .links {
   display: flex;
   list-style: none;
-  gap: var(--space-lg);
+  gap: var(--space-md);
   flex: 1;
   justify-content: center;
 }
@@ -39,6 +43,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--color-text-secondary);
+  white-space: nowrap;
   transition: color 0.2s ease;
 }
 
